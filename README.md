@@ -6,6 +6,7 @@ Need to change line 82 to point to correct local system path
 ### 2 - Replace all '/mnt' to local folder for logs
 ### 3 - For Mac only: Disable  airdrop that occupying port 7000 https://github.com/cookiecutter/cookiecutter-django/issues/3499
 ### 4 - Install mysql, create nudex, create local user nudex_user and passowrd, grant privilege, change everywhere inside mysql url reference of Bizzan to nudex
+### 5 - Original repo uses Eclipse. However, this should not be necessary. Created a branch removing all Eclipse-related meta files.
 
 # Crypto-Exchange / Coin-Exchange   
 # Maybe The best open source core code exchange in the entire net, the architecture/code quality is visible.
