@@ -1,11 +1,11 @@
-# Nuvo Specific Notes:
+# Nuvo Specific Notes （2024-03）:
 
 ## Compile fixes:
-1 - 00_framework/exchange-api/pom.xml 
+### 1 - 00_framework/exchange-api/pom.xml 
 Need to change line 82 to point to correct local system path
-2 - Replace all '/mnt' to local folder for logs
-3 - For Mac only: Disable  airdrop that occupying port 7000 https://github.com/cookiecutter/cookiecutter-django/issues/3499
-4 - Install mysql, create nudex, create local user nudex_user and passowrd, grant privilege, change everywhere inside mysql url reference of Bizzan to nudex
+### 2 - Replace all '/mnt' to local folder for logs
+### 3 - For Mac only: Disable  airdrop that occupying port 7000 https://github.com/cookiecutter/cookiecutter-django/issues/3499
+### 4 - Install mysql, create nudex, create local user nudex_user and passowrd, grant privilege, change everywhere inside mysql url reference of Bizzan to nudex
 
 # Crypto-Exchange / Coin-Exchange   
 # Maybe The best open source core code exchange in the entire net, the architecture/code quality is visible.
